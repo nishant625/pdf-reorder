@@ -23,14 +23,16 @@ An intelligent PDF page reordering tool that uses advanced OCR technology to aut
 
 ### Option 2: Kaggle (Recommended)
 1. Create a new Kaggle notebook
-2. Upload your PDF as a dataset
+2. Upload your PDF as a dataset(not required but better for safety)
 3. Copy the Kaggle-optimized code
-4. Run and download results from `/kaggle/working/`
+4. Choose the 2xT4 runtime for best performance.
+5. Run and download results from `/kaggle/working/`
 
 ### Option 3: Local Streamlit App
 1. Clone this repository
+2. Create a venv virtual python env for more isolation
 2. Install dependencies: `pip install -r requirements.txt`
-3. Run: `streamlit run main.py`
+3. Run: `streamlit run main.py` (very slow on CPU)
 4. Open your browser to the displayed URL
 
 ## 📋 Requirements
